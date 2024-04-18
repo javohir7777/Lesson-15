@@ -1,0 +1,42 @@
+@import url("./nav.css");
+@import url("./aside.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color: #0e4bf1;
+  --panel-color: #fff;
+  --text-color: #000;
+  --black-light-color: #707070;
+  --border-color: #e6e5e5;
+  --toggle-color: #ddd;
+  --box1-color: #4da3ff;
+  --box2-color: #ffe6ac;
+  --box3-color: #e7d1fc;
+  --title-icon-color: #fff;
+  --tran-05: all 0.5s ease;
+  --tran-03: all 0.3s ease;
+  --tran-03: all 0.2s ease;
+}
+
+.box-container {
+  display: flex;
+}
+nav {
+  background-color: var(--panel-color);
+  width: 250px;
+  height: 100vh;
+  padding: 10px 14px;
+  border-right: 2px solid var(--border-color);
+}
+aside {
+  background-color: var(--panel-color);
+  width: 100%;
+}
